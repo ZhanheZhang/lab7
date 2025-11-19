@@ -1,4 +1,7 @@
-﻿using System;
+﻿using lab7.Data;
+using lab7.Models;
+using lab7.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -6,8 +9,6 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using lab7.Data;
-using lab7.Models;
 
 namespace lab7.Controllers
 {
@@ -16,10 +17,35 @@ namespace lab7.Controllers
         private lab7Context db = new lab7Context();
 
         // GET: Students
-        public ActionResult Index()
+        public ActionResult Index(string search, string campus)
         {
+            var viewModel = new StudentIndexViewModel();
             var students = db.Students.Include(s => s.Campus);
-            return View(students.ToList());
+
+            if (!String.IsNullOrEmpty(search))
+            {
+                students = students.Where(s => s.Name.Contains(search) || s.Address.Contains(search));
+                viewModel.Search = search;
+                ViewBag.Search = search;
+            }
+
+            viewModel.CampusesWithCount = from s in students
+                                          group s by s.Campus.Name into g
+                                          select new CampusWithCount
+                                          {
+                                              CampusName = g.Key,
+                                              StudentCount = g.Count()
+                                          };
+
+            if (!String.IsNullOrEmpty(campus))
+            {
+                students = students.Where(s => s.Campus.Name == campus);
+                viewModel.Campus = campus;
+            }
+            var campusNames = viewModel.CampusesWithCount.Select(c => c.CampusName).Distinct();
+            ViewBag.Campus = new SelectList(campusNames);
+            viewModel.Students = students.ToList();
+            return View(viewModel);
         }
 
         // GET: Students/Details/5

@@ -3,7 +3,29 @@
   "WorkspaceRootPath": "D:\\programing\\C#\\lab7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/lab7Context_20251112212426/True/SqlTable/dbo.Students.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/lab7Context_20251112212426/True/SqlTable/dbo.UniversityCampus.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\models\\universitycampus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:models\\universitycampus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\controllers\\universitycampuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:controllers\\universitycampuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|d:\\programing\\c#\\lab7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -11,15 +33,15 @@
       "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\controllers\\universitycampuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:controllers\\universitycampuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|d:\\programing\\c#\\lab7\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -31,20 +53,8 @@
       "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:migrations\\202511260901035_studentvalidationupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\migrations\\202511260841400_initialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:migrations\\202511260841400_initialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\viewmodels\\studentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +63,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\models\\universitycampus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|solutionrelative:models\\universitycampus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D88E8AD3-993D-4AA6-8FED-D377BA337477}|lab7.csproj|D:\\programing\\C#\\lab7\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -74,24 +80,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Views\\Students\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
-              "ToolTip": "D:\\programing\\C#\\lab7\\Views\\Students\\Index.cshtml",
-              "RelativeToolTip": "Views\\Students\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T03:34:47.32Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.Students [\u6570\u636E]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/lab7Context_20251112212426/True/SqlTable/dbo.Students.sql",
+              "ToolTip": "dbo.Students [\u6570\u636E]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-26T12:17:09.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "dbo.UniversityCampus [\u6570\u636E]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/lab7Context_20251112212426/True/SqlTable/dbo.UniversityCampus.sql",
+              "ToolTip": "dbo.UniversityCampus [\u6570\u636E]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-26T12:16:33.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\programing\\C#\\lab7\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T13:14:36.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
+              "ToolTip": "D:\\programing\\C#\\lab7\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:40:55.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\programing\\C#\\lab7\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -104,7 +143,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
+              "ToolTip": "D:\\programing\\C#\\lab7\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwFUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T03:34:47.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UniversityCampusController.cs",
+              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Controllers\\UniversityCampusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UniversityCampusController.cs",
+              "ToolTip": "D:\\programing\\C#\\lab7\\Controllers\\UniversityCampusController.cs",
+              "RelativeToolTip": "Controllers\\UniversityCampusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T13:24:33.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "UniversityCampus.cs",
+              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Models\\UniversityCampus.cs",
+              "RelativeDocumentMoniker": "Models\\UniversityCampus.cs",
+              "ToolTip": "D:\\programing\\C#\\lab7\\Models\\UniversityCampus.cs",
+              "RelativeToolTip": "Models\\UniversityCampus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T13:13:19.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PagedList.css",
+              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Content\\PagedList.css",
+              "RelativeDocumentMoniker": "Content\\PagedList.css",
+              "ToolTip": "D:\\programing\\C#\\lab7\\Content\\PagedList.css",
+              "RelativeToolTip": "Content\\PagedList.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAQwKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-26T03:37:48.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\programing\\C#\\lab7\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAwIEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T13:24:56.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\programing\\C#\\lab7\\Views\\Students\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
@@ -117,33 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "D:\\programing\\C#\\lab7\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAwHsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:24:56.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UniversityCampusController.cs",
-              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Controllers\\UniversityCampusController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UniversityCampusController.cs",
-              "ToolTip": "D:\\programing\\C#\\lab7\\Controllers\\UniversityCampusController.cs",
-              "RelativeToolTip": "Controllers\\UniversityCampusController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAYwDwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:24:33.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "202511260901035_StudentValidationUpdate.cs",
               "DocumentMoniker": "D:\\programing\\C#\\lab7\\Migrations\\202511260901035_StudentValidationUpdate.cs",
               "RelativeDocumentMoniker": "Migrations\\202511260901035_StudentValidationUpdate.cs",
@@ -151,11 +229,12 @@
               "RelativeToolTip": "Migrations\\202511260901035_StudentValidationUpdate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T09:01:07.484Z"
+              "WhenOpened": "2025-11-26T09:01:07.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "lab7Context.cs",
               "DocumentMoniker": "D:\\programing\\C#\\lab7\\Data\\lab7Context.cs",
               "RelativeDocumentMoniker": "Data\\lab7Context.cs",
@@ -163,35 +242,12 @@
               "RelativeToolTip": "Data\\lab7Context.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T07:05:20.816Z"
+              "WhenOpened": "2025-11-13T07:05:20.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
-              "ToolTip": "D:\\programing\\C#\\lab7\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "Migrations\\Configuration.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAIwB8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T08:40:55.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "D:\\programing\\C#\\lab7\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:14:36.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "202511260841400_InitialDatabase.cs",
               "DocumentMoniker": "D:\\programing\\C#\\lab7\\Migrations\\202511260841400_InitialDatabase.cs",
               "RelativeDocumentMoniker": "Migrations\\202511260841400_InitialDatabase.cs",
@@ -199,23 +255,12 @@
               "RelativeToolTip": "Migrations\\202511260841400_InitialDatabase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T08:41:43.801Z"
+              "WhenOpened": "2025-11-26T08:41:43.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PagedList.css",
-              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Content\\PagedList.css",
-              "RelativeDocumentMoniker": "Content\\PagedList.css",
-              "ToolTip": "D:\\programing\\C#\\lab7\\Content\\PagedList.css",
-              "RelativeToolTip": "Content\\PagedList.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-26T03:37:48.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "StudentIndexViewModel.cs",
               "DocumentMoniker": "D:\\programing\\C#\\lab7\\ViewModels\\StudentIndexViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\StudentIndexViewModel.cs",
@@ -223,11 +268,12 @@
               "RelativeToolTip": "ViewModels\\StudentIndexViewModel.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAcwA8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T09:18:46.348Z"
+              "WhenOpened": "2025-11-19T09:18:46.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\programing\\C#\\lab7\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
@@ -235,23 +281,12 @@
               "RelativeToolTip": "Views\\Home\\About.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T08:49:06.331Z"
+              "WhenOpened": "2025-11-19T08:49:06.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UniversityCampus.cs",
-              "DocumentMoniker": "D:\\programing\\C#\\lab7\\Models\\UniversityCampus.cs",
-              "RelativeDocumentMoniker": "Models\\UniversityCampus.cs",
-              "ToolTip": "D:\\programing\\C#\\lab7\\Models\\UniversityCampus.cs",
-              "RelativeToolTip": "Models\\UniversityCampus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:13:19.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "D:\\programing\\C#\\lab7\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
@@ -259,11 +294,12 @@
               "RelativeToolTip": "Views\\Home\\Contact.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T08:49:03.851Z"
+              "WhenOpened": "2025-11-19T08:49:03.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\programing\\C#\\lab7\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -271,7 +307,8 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T08:48:22.726Z"
+              "WhenOpened": "2025-11-19T08:48:22.726Z",
+              "EditorCaption": ""
             }
           ]
         }

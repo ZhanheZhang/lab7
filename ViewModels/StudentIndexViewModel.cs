@@ -1,4 +1,5 @@
 ﻿using lab7.Models;
+using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,9 @@ namespace lab7.ViewModels
     // StudentIndexViewModel.cs
     public class StudentIndexViewModel
     {
-        public IEnumerable<Student> Students { get; set; }
+        public IPagedList<Student> Students { get; set; }
+
+        //public IEnumerable<Student> Students { get; set; }
         public string Search { get; set; }
         public string Campus { get; set; }
         public IEnumerable<CampusWithCount> CampusesWithCount { get; set; }

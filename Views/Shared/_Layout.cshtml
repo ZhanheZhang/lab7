@@ -26,6 +26,23 @@
 
                 </ul>
             </div>
+
+            <!-- 修改后的学生搜索表单 -->
+            @using (Html.BeginForm("Index", "Students", FormMethod.Get, new { @class = "d-flex" }))
+            {
+                <div class="input-group">
+                    @Html.TextBox("search", ViewBag.Search as string, new
+                    {
+                        @class = "form-control",
+                        @placeholder = "Search students...",
+                        @style = "width: 200px;"
+                    })
+                    <button type="submit" class="btn btn-primary" style="margin-left: 5px;">
+                        <i class="fas fa-search"></i> search
+                    </button>
+                </div>
+            }
+
         </div>
     </nav>
     <div class="container body-content">

@@ -37,20 +37,16 @@ namespace lab7.Controllers
         }
 
         // GET: UniversityCampus/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: UniversityCampus/Create
-        // 为了防止“过多发布”攻击，请启用要绑定到的特定属性；有关
-        // 更多详细信息，请参阅 https://go.microsoft.com/fwlink/?LinkId=317598。
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,Name")] UniversityCampus universityCampus)
         {
             if (ModelState.IsValid)
             {
+             
+                universityCampus.ID = Guid.NewGuid().ToString();
+
+
                 db.UniversityCampus.Add(universityCampus);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -58,6 +54,12 @@ namespace lab7.Controllers
 
             return View(universityCampus);
         }
+
+        // POST: UniversityCampus/Create
+        // 为了防止“过多发布”攻击，请启用要绑定到的特定属性；有关
+        // 更多详细信息，请参阅 https://go.microsoft.com/fwlink/?LinkId=317598。
+        
+
 
         // GET: UniversityCampus/Edit/5
         public ActionResult Edit(string id)

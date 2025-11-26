@@ -1,30 +1,60 @@
-﻿@model lab7.ViewModels.StudentIndexViewModel
+﻿<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@model lab7.ViewModels.StudentIndexViewModel
 @{
     ViewBag.Title = "Student List";
 }
+@using PagedList.Mvc
 
 <h2>Student List</h2>
-
+<p>
+    @(String.IsNullOrWhiteSpace(Model.Search)?"Showing all":"You search for"+Model.Search+"found")
+    @Model.Students.TotalItemCount students
+</p>
 <p>
     @Html.ActionLink("Create New", "Create")
 
     @using (Html.BeginForm("Index", "Students", FormMethod.Get))
     {
         <div>
-            <label>Search:</label>
-            @Html.TextBoxFor(m => m.Search)
+            <input type="hidden" name="search" value="@Model.Search" />
             <label>Filter by Campus:</label>
             @Html.DropDownListFor(m => m.Campus, Model.CampusFilterItems, "All Campuses")
-            <input type="submit" value="Search" />
+            <input type="submit" value="Filter" />
         </div>
     }
 </p>
 
+
 <table class="table">
     <tr>
-        <th>Campus</th>
-        <th>Name</th>
-        <th>Address</th>
+        <th>
+            @Html.ActionLink("Campus", "Index", new
+            {
+                sortOrder = ViewBag.CampusSortParm,
+                search = ViewBag.Search,
+                campus = Model.Campus,
+                page = Model.Students.PageNumber
+            })
+        </th>
+        <th>
+            @Html.ActionLink("Name", "Index", new
+            {
+                sortOrder = ViewBag.NameSortParm,
+                search = ViewBag.Search,
+                campus = Model.Campus,
+                page = Model.Students.PageNumber
+            })
+        </th>
+        <th>
+            @Html.ActionLink("Address", "Index", new
+            {
+                sortOrder = ViewBag.AddressSortParm,
+                search = ViewBag.Search,
+                campus = Model.Campus,
+                page = Model.Students.PageNumber
+            })
+        </th>
         <th>Actions</th>
     </tr>
     @foreach (var student in Model.Students)
@@ -41,3 +71,16 @@
         </tr>
     }
 </table>
+
+<div>
+    Page @(Model.Students.PageCount < Model.Students.PageNumber ? 0 : Model.Students.PageNumber) of @Model.Students.PageCount
+
+    @Html.PagedListPager(Model.Students, page => Url.Action("Index",
+        new
+            {
+            page,
+            sortOrder = ViewBag.CurrentSort,
+            search = ViewBag.Search,
+            campus = Model.Campus
+        }))
+</div>

@@ -88,3 +88,11 @@ D:\programing\C#\lab7\obj\Debug\lab7.csproj.CoreCompileInputs.cache
 D:\programing\C#\lab7\obj\Debug\lab7.csproj.Up2Date
 D:\programing\C#\lab7\obj\Debug\lab7.dll
 D:\programing\C#\lab7\obj\Debug\lab7.pdb
+D:\programing\C#\lab7\bin\PagedList.dll
+D:\programing\C#\lab7\bin\PagedList.Mvc.dll
+D:\programing\C#\lab7\bin\PagedList.xml
+D:\programing\C#\lab7\bin\PagedList.Mvc.xml
+D:\programing\C#\lab7\obj\Debug\lab7.Migrations.InitialCreate.resources
+D:\programing\C#\lab7\obj\Debug\lab7.csproj.GenerateResource.cache
+D:\programing\C#\lab7\obj\Debug\lab7.Migrations.InitialDatabase.resources
+D:\programing\C#\lab7\obj\Debug\lab7.Migrations.StudentValidationUpdate.resources
